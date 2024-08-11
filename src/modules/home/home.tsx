@@ -1,5 +1,9 @@
+import { Header } from "@/shared/widgets/header/header"
+
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Header />
+    </div>
   )
 }
