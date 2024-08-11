@@ -1,9 +1,13 @@
-import Header from "@/shared/widgets/header"
+import Header from "@/shared/widgets/header";
+import Banner from "./features/banner";
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
       <Header />
+      <Banner />
     </div>
   )
 }
+
+export default Home;
