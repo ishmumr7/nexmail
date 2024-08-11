@@ -16,7 +16,7 @@ export default function Providers({children}:ProviderProps) {
           <div className="w-[290px] h-screen overflow-y-scroll"></div>
         </div>
       ) : (
-        <>{children}</>
+        <Providers>{children}</Providers>
       ) }
     </NextUIProvider>
   )
