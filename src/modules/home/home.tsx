@@ -1,4 +1,4 @@
-import { Header } from "@/shared/widgets/header/header"
+import Header from "@/shared/widgets/header"
 
 export const Home = () => {
   return (
