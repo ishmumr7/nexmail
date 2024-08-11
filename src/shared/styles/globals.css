@@ -40,7 +40,7 @@ body {
   animation: spin 30s linear infinite; /* Adjust the time for the speed of the spin */
 }
 .font-style {
-  background: #fec8eb;
+  color: #FE5FC4;
   padding: 0px 5px;
 }
 .benefit-cover {
