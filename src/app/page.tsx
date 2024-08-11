@@ -1,9 +1,10 @@
+import { Home } from "@/modules/home/home";
 import Image from "next/image";
 
 export default function Page () {
   return (
     <div>
-      Home
+      <Home />
     </div>
   );
 }
