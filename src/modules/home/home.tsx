@@ -1,6 +1,7 @@
 import Header from "@/shared/widgets/header";
 import Banner from "./features/banner";
 import Branding from "./features/branding";
+import Benefits from "./features/benefits";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Header />
       <Banner />
       <Branding />
+      <Benefits />
     </div>
   )
 }
