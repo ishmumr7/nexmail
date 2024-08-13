@@ -2,7 +2,7 @@ import React from "react";
 
 const Benefits = () => {
 	return (
-		<div className="benefit-cover min-h-[60vh] relative flex items-center justify-center">
+		<div className="benefit-cover min-h-[60vh] relative flex items-center justify-center border-b-2 border-[#000]">
 			<div className="w-[70%] md:h-[350px] bg-[#f7f5ff] border-[2px] rounded border-blue-500 p-2">
 				<h3 className="font-clashDisplay uppercase text-3xl md:text-7xl text-center w-full mb-4">
 					EVERYTHING YOU NEED TO <span className="font-style">SUCCEED</span>{" "}

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FeatureHighlight = () => {
 	return (
-		<div className="w-full flex items-center justify-around bg-[#9399f4] py-5 px-20 text-center md:py-0 md:text-left md:min-h-[55vh]">
+		<div className="w-full flex items-center justify-around bg-[#9399f4] border-b-2 border-[#000] py-5 px-20 text-center md:py-0 md:text-left md:min-h-[55vh]">
 			<div className="">
 				<Image
 					src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,onerror=redirect,format=auto,width=1080,quality=75/www/homepage/Publish.png"
