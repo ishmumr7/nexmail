@@ -49,7 +49,7 @@ export const freePlan: PlanType[] = [
   },
 ];
 
-export const GrowPlan: PlanType[] = [
+export const scalePlan: PlanType[] = [
   {
     title: "Up to 10,000 subscribers",
   },
@@ -64,7 +64,7 @@ export const GrowPlan: PlanType[] = [
   },
 ];
 
-export const scalePlan: PlanType[] = [
+export const maxPlan: PlanType[] = [
   {
     title: "Up to 100,000 subscribers",
   },
