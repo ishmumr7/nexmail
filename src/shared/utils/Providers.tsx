@@ -1,4 +1,4 @@
-"use clent";
+"use client";
 import { NextUIProvider } from "@nextui-org/react";
 import { usePathname } from "next/navigation";
 
@@ -6,7 +6,7 @@ interface ProviderProps {
   children: React.ReactNode;
 }
 
-export default function Providers({children}:ProviderProps) {
+export default function Providers({ children }: ProviderProps) {
   const pathname = usePathname();
 
   return (
@@ -16,7 +16,7 @@ export default function Providers({children}:ProviderProps) {
           <div className="w-[290px] h-screen overflow-y-scroll"></div>
         </div>
       ) : (
-        <Providers>{children}</Providers>
+        <>{children}</>
       ) }
     </NextUIProvider>
   )
