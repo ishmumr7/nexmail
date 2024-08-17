@@ -11,7 +11,7 @@ export default function Providers({ children }: ProviderProps) {
 
   return (
     <NextUIProvider>
-      {pathname !== "/dashboard/new-email" && pathname !== "/" && pathname !== "sign-up" && pathname !== "subscribe" && pathname !== "sign-in" ? (
+      {pathname !== "/dashboard/new-email" && pathname !== "/" && pathname !== "/sign-up" && pathname !== "subscribe" && pathname !== "/sign-in" ? (
         <div className="w-full flex">
           <div className="w-[290px] h-screen overflow-y-scroll"></div>
         </div>
