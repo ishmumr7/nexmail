@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import FooterLogo from "../../../shared/widgets/footer/footer.logo";
+import FooterLogo from "./footer.logo";
 
 const Footer = () => {
 	return (

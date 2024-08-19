@@ -4,7 +4,7 @@ import Branding from "./elements/branding";
 import Benefits from "./elements/benefits";
 import FeatureHighlight from "./elements/feature.highlight";
 import Pricing from "./elements/pricing";
-import Footer from "@/modules/home/elements/footer";
+import Footer from "@/shared/widgets/footer/footer";
 
 const Home = () => {
   return (
