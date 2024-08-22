@@ -1,9 +1,9 @@
-import Main from './elements/main/main'
+import Main from "./elements/main/main";
 
 export default function Dashboard() {
-  return (
-    <div>
-      <Main />
-    </div>
-  )
+	return (
+		<div>
+			<Main />
+		</div>
+	);
 }
