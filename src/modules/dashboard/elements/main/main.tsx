@@ -5,13 +5,21 @@ import { ICONS } from "@/shared/utils/icons";
 import { useUser } from "@clerk/nextjs";
 import { Button } from "@nextui-org/react";
 import { useState } from "react";
+import toast from "react-hot-toast"
 
 const Main = () => {
 	const { user } = useUser();
 	const [copied, setCopied] = useState(false);
 
 	const handleCopyLink = () => {
-		
+		const smallText = document.querySelector(".copy-text") as HTMLElement;
+		if (smallText) {
+			const textToCopy = smallText.innerText;
+			navigator.clipboard.writeText(textToCopy).then(() => {
+				setCopied(true);
+				toast.success("Copied!")
+			})
+		}
 	}
 
 	return (
@@ -41,8 +49,8 @@ const Main = () => {
 								<h4 className="font-medium">Home Page</h4>
 								<div className="w-full px-2 my-1 h-[38px] bg-transparent border rounded-lg relative flex items-center cursor pointer"
 								onClick={handleCopyLink}>
-									<small className={`w-[70%] text-sm overflow-hidden overflow-ellipsis whitespace-nowrap copy-text ${
-                      copied ? "bg-blue-200" : "bg-transparent"
+									<small className={`w-[70%] text-sm overflow-hidden overflow-ellipsis whitespace-nowrap select-none copy-text ${
+                      copied ? "text-blue-800" : "text-black"
                     }`}>
 											https://nexmail.beehiiv.com/
 									</small>
