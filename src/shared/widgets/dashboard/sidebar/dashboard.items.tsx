@@ -30,17 +30,17 @@ const DashboardItems = ({ bottomContent }: { bottomContent?: boolean }) => {
 						<Link
 							key={index}
 							href={item.url}
-							className="p-2 py-5 flex items-center"
+							className="p-2 py-3 flex items-center font-[500] text-gray-700"
 						>
 							<span
-								className={`text-3xl mr-2 ${
+								className={`text-medium mr-2 ${
 									item.url === activeRoute && "text-[#463bbd]"
 								}`}
 							>
 								{item.icon}
 							</span>
 							<span
-								className={`text-xl mr-2 ${
+								className={`text-small mr-2 ${
 									item.url === activeRoute && "text-[#463bbd]"
 								}`}
 							>
@@ -60,17 +60,17 @@ const DashboardItems = ({ bottomContent }: { bottomContent?: boolean }) => {
 										? `/subscribe?username=${user?.username}`
 										: item.url
 								}
-								className="p-2 py-5 flex items-center"
+								className="p-2 py-3 flex items-center font-[500] text-gray-700"
 							>
 								<span
-									className={`text-3xl mr-2 ${
+									className={`text-medium mr-2 ${
 										item.url === activeRoute && "text-[#463bbd]"
 									}`}
 								>
 									{item.icon}
 								</span>
 								<span
-									className={`text-xl mr-2 ${
+									className={`text-small mr-2 ${
 										item.url === activeRoute && "text-[#463bbd]"
 									}`}
 								>
@@ -82,11 +82,11 @@ const DashboardItems = ({ bottomContent }: { bottomContent?: boolean }) => {
 
 					{/* Sign Out */}
 					<div
-						className="p-2 py-5 flex items-center cursor-pointer border-b"
+						className="p-2 py-3 flex items-center cursor-pointer border-b font-[500] text-gray-700"
 						onClick={LogoutHandler}
 					>
-						<span className="text-3xl mr-2">{ICONS.logOut}</span>
-						<span className="text-xl ">Sign Out</span>
+						<span className="text-medium mr-2">{ICONS.logOut}</span>
+						<span className="text-small ">Sign Out</span>
 					</div>
 
 					{/* Footer */}
