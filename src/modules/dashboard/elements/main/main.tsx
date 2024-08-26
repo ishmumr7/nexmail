@@ -54,6 +54,10 @@ const Main = () => {
                     }`}>
 											https://nexmail.beehiiv.com/
 									</small>
+									<div className="absolute h-[38px] w-[90px] rounded-r-lg bg-[#DFE7FF] right-0 flex items-center justify-center">
+                    <span className="text-lg">{ICONS.copy}</span>
+                    <span className="pl-1">copy</span>
+                  </div>
 								</div>
 							</div>
 						</div>
