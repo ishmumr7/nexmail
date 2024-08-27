@@ -42,6 +42,8 @@ const Main = () => {
 							Start Writing
 						</Button>
 					</div>
+
+					{/* Resources */}
 					<div className="mt-2">
 						<h5 className="text-xl font-medium">Resources</h5>
 						<div className="w-full bg-white border rounded p-5 my-3">
@@ -61,6 +63,11 @@ const Main = () => {
 								</div>
 							</div>
 						</div>
+					</div>
+					
+					{/* Tutorials */}
+					<div className="w-full bg-white border rounded p-5 my-3">
+						<h5 className="text-medium">Tutorials</h5>
 					</div>
 				</div>
 			</div>
