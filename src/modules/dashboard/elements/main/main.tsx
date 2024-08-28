@@ -68,6 +68,7 @@ const Main = () => {
 					{/* Tutorials */}
 					<div className="w-full bg-white border rounded p-5 my-3">
 						<h5 className="text-medium">Tutorials</h5>
+						
 					</div>
 				</div>
 			</div>
