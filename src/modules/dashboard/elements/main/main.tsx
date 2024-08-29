@@ -68,7 +68,14 @@ const Main = () => {
 					{/* Tutorials */}
 					<div className="w-full bg-white border rounded p-5 my-3">
 						<h5 className="text-medium">Tutorials</h5>
-						
+						<p className="text-sm opacity-[.7]">
+              Learn how to get started on nexmail and utilize all our features,
+              directly from the nexmail team.
+            </p>
+            <br />
+            <Button className="bg-[#FBCFE8] text-[#831743] rounded-lg h-[35px] flex items-center">
+              Tutorials <span>{ICONS.link}</span>
+            </Button>
 					</div>
 				</div>
 			</div>
