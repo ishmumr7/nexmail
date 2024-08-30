@@ -4,6 +4,7 @@ import SubscribersChart from "@/shared/components/charts/subscribers.chart";
 import { ICONS } from "@/shared/utils/icons";
 import { useUser } from "@clerk/nextjs";
 import { Button } from "@nextui-org/react";
+import Link from "next/link";
 import { useState } from "react";
 import toast from "react-hot-toast"
 
@@ -77,6 +78,36 @@ const Main = () => {
               Tutorials <span>{ICONS.link}</span>
             </Button>
 					</div>
+
+					{/* Associated Links */}
+					 {/* Need help? */}
+					 <div className="w-full bg-white border rounded p-5 my-3">
+            <h5 className="font-medium">Need help?</h5>
+            <Link href={"/"}>
+              <div className="w-max px-3 my-2 h-[33px] bg-transparent border rounded-lg flex items-center">
+                <span className="text-sm">Knowledge base</span>
+                <span className="ml-1">{ICONS.link}</span>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="w-max px-3 my-2 h-[33px] bg-transparent border rounded-lg flex items-center">
+                <span className="text-sm">API Documentation</span>
+                <span className="ml-1">{ICONS.link}</span>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="w-max px-3 my-2 h-[33px] bg-transparent border rounded-lg flex items-center">
+                <span className="text-sm">Blog</span>
+                <span className="ml-1">{ICONS.link}</span>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="w-max px-3 my-2 h-[33px] bg-transparent border rounded-lg flex items-center">
+                <span className="text-sm">FAQ</span>
+                <span className="ml-1">{ICONS.link}</span>
+              </div>
+            </Link>
+          </div>
 				</div>
 			</div>
 		</div>
