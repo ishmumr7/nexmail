@@ -11,7 +11,7 @@ const DashboardSidebar = () => {
 	return (
 		<div className="p-2 h-screen flex flex-col justify-between">
 			<div>
-				<div className="p-2 flex items-center bg-[#f5f5f5f5] rounded">
+				<div className="p-2 flex items-center bg-[#f5f5f5f5] rounded text-sm">
 					<span className="text-2xl">{ICONS.home}</span>
 					<h5 className="pl-2 pt-1">{user?.lastName}&apos;s Newsletter</h5>
 				</div>
